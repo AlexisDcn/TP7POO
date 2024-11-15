@@ -1,3 +1,3 @@
 public enum Marque {
-Renault, Citroen, Volvo
+Renault, Citroen, Volvo, Giant
 }

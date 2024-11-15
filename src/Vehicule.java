@@ -2,7 +2,7 @@ public class Vehicule {
     private final Marque marque;
     private final String numImmat;
     protected int vitesseMax = 100;
-    private int vitesseActuelle;
+    protected int vitesseActuelle;
 
     public Vehicule(Marque marque, String numImmat) {
         this.marque = marque;

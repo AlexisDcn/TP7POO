@@ -8,7 +8,7 @@ public class VehiculeAvecMoteur extends Vehicule implements Motorisable {
         this.vitesseMax = 100; // Initialisation par défaut
         this.puissance = 0; // Initialisation par défaut
         this.volumeReservoir = 0; // Initialisation par défaut
-        this.volumeMaxReservoir = 100; // Initialisation par défaut
+        this.volumeMaxReservoir = 50; // Initialisation par défaut
     }
 
     public VehiculeAvecMoteur(Marque marque, String numImmat) {
@@ -16,7 +16,7 @@ public class VehiculeAvecMoteur extends Vehicule implements Motorisable {
         this.vitesseMax = 100;
         this.puissance = 0;
         this.volumeReservoir = 0;
-        this.volumeMaxReservoir = 100;
+        this.volumeMaxReservoir = 50;
     }
 
     
